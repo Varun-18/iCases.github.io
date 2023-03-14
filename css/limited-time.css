@@ -1,0 +1,92 @@
+.limited-time{
+    margin-top: 104px;
+    /* width: 90%; */
+}
+
+.heading{
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'PT sans';
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+
+.offers{
+    margin: 0 42px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: space-between;
+    margin-bottom: 99px;
+    width: 100vw;
+}
+
+.offers::-webkit-scrollbar {
+    display: none;
+}
+
+.card{
+    display: flex;
+    /* margin-left :10px; */
+    width:382px;
+    height: 248px;
+    padding: 0 24px;
+}
+
+.card-img img{
+    margin: 18px 4px;
+    height: 194px;
+    width: 194px;
+}
+
+.card-img{
+    flex:1;
+    vertical-align: middle;
+}
+
+.card-text{
+    flex: 1;
+}
+
+.card{
+    border: 10px solid #F4F4F4;
+    margin-left: 20px;
+}
+
+.first{
+    margin-top: 42px;
+    font-size: 22px;
+    line-height: 41px;
+    font-family: 'PT sans';
+    color: #000000;
+    text-transform: lowercase;
+    text-align: left;
+}
+
+.second{
+    font-family: 'PT sans';
+    font-size: 45px;
+    line-height:0px;
+    letter-spacing: 0px;
+    color: #F12B63;
+    opacity: 1;
+}
+
+.third{
+    font-size: 23px;
+    line-height: 43px;
+    font-family: 'PT sans';
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.subtext{
+    font-family: 'Pt sans';
+    font-size: 23px;
+    line-height: 43px;
+    color: #000000;
+}

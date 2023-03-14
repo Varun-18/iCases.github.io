@@ -1,0 +1,14 @@
+.promo-banner{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+    margin-bottom: 116px;
+}
+
+.promo-banner .promo-img1 img,.promo-banner .promo-img2 img{
+    height: 286px;
+    width: 634px;
+}
+

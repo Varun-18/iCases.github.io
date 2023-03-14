@@ -1,0 +1,58 @@
+.instore{
+    /* margin-top: 115px; */
+    margin: 0 54px;
+}
+
+.instr{
+    margin-bottom: 24px;
+}
+.category{
+    text-align: center;
+}
+
+.category span{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 10px;
+    /* margin-top: -10px; */
+}
+
+#iphone{
+    text-decoration: underline;
+}
+
+
+.instr-scroll{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 60px;
+    /* max-width: 1300px; */
+    width: 100vw;
+}
+
+.instr-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.card3{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 283px;
+    /* margin-right: 37px; */
+}
+
+.str-img img{
+    height: 283px;
+    width: 283px;
+}
+
+.desc{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12%;
+}

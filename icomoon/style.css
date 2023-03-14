@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?j1mku3');
+  src:  url('fonts/icomoon.eot?j1mku3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?j1mku3') format('truetype'),
+    url('fonts/icomoon.woff?j1mku3') format('woff'),
+    url('fonts/icomoon.svg?j1mku3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ic_user:before {
+  content: "\e900";
+}
+.icon-ic_trolley:before {
+  content: "\e901";
+}
+.icon-ic_search:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-ic_quick_order-01:before {
+  content: "\e903";
+}
+.icon-ic_cart-01:before {
+  content: "\e904";
+}
+.icon-search:before {
+  content: "\e986";
+}

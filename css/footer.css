@@ -1,0 +1,141 @@
+.footer{
+    margin-top: 123px;
+}
+
+.footer-content{
+    /* margin: 50px auto; */
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: #EEEEEE;
+    height: 137px;
+    margin: auto;
+    align-items: center;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 39px;
+}
+
+.blk1-txt1{
+    font-size: 24px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+}
+
+.blk1-txt2{
+    color: #666666;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.feild{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+}
+.feild input{
+    max-width: 418px;
+    width: 100%;
+    height: 46px;
+}
+
+.feild .footer-feild::placeholder{
+    padding-left: 20px;
+}
+
+.footerbtn{
+    height: 50px;
+    width: 132px;
+    background-color: #00AB2F;
+    border: none;
+    border-radius: 0px 2px 2px 0px;
+    color: white;
+}
+
+.footer-mid{
+    padding: 3% 0;
+    display: flex;
+    background: #000000;
+    color: white;
+    justify-content: space-evenly;
+}
+
+
+.footer-mid div ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ft-heading{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 15%;
+}
+
+.footer-mid div ul li{
+    /* margin: 2%; */
+}
+
+.call-info{
+    display: flex;
+}
+
+.call-info button{
+    background-color: #00A9C7;
+    border-radius: 100%;
+    border: none;
+    margin: 5%;
+}
+
+.call-info button i{
+    color: white;
+}
+
+
+.socials,.payment{
+
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.footer-bottom{
+    display: flex;
+    background-color: black;
+    padding:0 9%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 32px;
+}
+
+
+.footer-last{
+    padding: 1%;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #191919;
+}
+
+
+.grp1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+#news_msg {
+    display: none;
+} */
+
+#newsletter::placeholder{
+    color: var(--c,gray);
+}

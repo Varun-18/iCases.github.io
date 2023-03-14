@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="promo">
+            <p>3 FOR 2 ON ALL PRODUCTS&nbsp;&nbsp;|&nbsp;&nbsp;14-DAY RETURNS & LIFETIME
+                WARRANTY&nbsp;&nbsp;|&nbsp;&nbsp;FREE UK SHIPPING OVER £50
+            </p>
+        </div>
+
+        <div class="middlenav">
+            <div class="logo-img">
+                <img src="images/logo_iCases.svg" alt="Main-logo" class="logo-img">
+            </div>
+            <div class="search">
+                <input type="text" class="searchbar" placeholder="Search entire store here...">
+                <button class="searchbtn">
+                    <span class="icon-ic_search"></span>
+                </button>
+            </div>
+            <div class="action">
+                <div class="login">
+                    <span class="icon-ic_user"></span>
+                    <span>Login/Register</span>
+                </div>
+                <div class="quick-order">
+                    <span class="icon-ic_quick_order-01"></span>
+                    <span>QuickOrder</span>
+                </div>
+                <div class="myquote">
+                    <span class="icon-ic_trolley"></span>
+                    <span>MyQuote</span>
+                </div>
+                <div class="mycart">
+                    <span class="icon-ic_cart-01"></span>
+                    <span>MyCart</span>
+                </div>
+            </div>
+        </div>
+        <div class="bottomnav">
+            <span><a href="#">IPAD CASES</a></span>
+            <span><a href="#">IPHONE CASES</a></span>
+            <span><a href="#">MACBOOK SLEEVES</a></span>
+            <span><a href="#">SCREEN PROTECTORS</a></span>
+            <span><a href="#">OUTLET</a></span>
+            <span><a href="#">PRODUCT REGISTRATION</a></span>
+            <span><a href="#" class="last">EDUCATION</a></span>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <form method="get" action="javascript:void(0)" >
+            <span class="form-heading">Contact Us</span>
+            <p>Name:<span class="required">*</span></p>
+            <input type="text" id="name" placeholder="Enter your name">
+            <p id="name_err" class="required"></p>
+
+
+            <p>Email:<span class="required">*</span></p>
+            <input type="text" id="mail" placeholder="Enter your email">
+            <p id="email_err" class="required"></p>
+
+
+
+            <p>Phone:<span class="required">*</span></p>
+            <div class="phoneno">
+                <select name="" id="">
+                    <option value="Inida">+91</option>
+                    <option value="USA">+001</option>
+                </select>
+                <input type="text" pattern="[6-9]{1}[0-9]{9}" id="phno" placeholder="Enter your phone no">
+            </div>
+            <p id="phone_err" class="required"></p>
+
+
+
+            <p>Subject:<span class="required">*</span></p>
+            <select name="issue" id="options">
+                    <option value="" disabled selected>Select-your-choice</option>
+                    <option value="Order status">Order status</option>
+                    <option value="Return request">Return request</option>
+                    <option value="Help desk">Help Desk</option>  
+            </select>
+            <p id="sel_err" class="required"></p>
+
+
+            <p>Message:<span class="required">*</span></p>
+            <textarea name="" id="textarea"
+                placeholder="Vivamus vestibulum ornare erat sit amet tincidunt. Nunc imperdiet est ornare, cursus nunc in, scelerisque odio. Nunc lacus orci, laoreet ut tempor sit amet, hendrerit at augue."></textarea>
+            <p id="msg_err" class="required"></p>
+
+
+
+            <button class="submit" onclick="validate()">Submit</button>
+        </form>
+
+
+        <div class="contact-info">
+            <div class="head">
+                Need Help
+                <hr>
+            </div>
+            <div class="contact1">
+                <div class="icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <span>
+                    Call Us : +44(0)9998888888 <br>
+                    We're here from monday to friday
+                </span>
+            </div>
+            <div class="contact1">
+                <div class="icon">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <span>
+                    Email Us : support@icases.com <br>
+                    We aim to repond within 24hr , Mon-Fri
+                </span>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+<!-- 
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-content">
+                <div class="block1">
+                    <span class="blk1-txt1">Subscribe for Newsletters</span>
+                    <span class="blk2-txt2">Subscribe for early access on offers and new arrivals</span>
+                </div>
+                <div class="feild">
+                    <input type="text" class="footer-feild" placeholder="Enter email address">
+                    <button class="footerbtn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-mid">
+            <div class="logo">
+                <img src="images/logo_iCase_white.svg" alt="footer-img">
+            </div>
+            <div class="blk1">
+                <ul>
+                    <li class="ft-heading">info</li>
+                    <li>My account</li>
+                    <li>FAQ</li>
+                    <li>About us</li>
+                    <li>Delivery information</li>
+                </ul>
+            </div>
+            <div class="blk2">
+                <ul>
+                    <li class="ft-heading">customer services</li>
+                    <li><a href="contact-us.html" style="text-decoration: none;color: white;">Contact us</a></li>
+                    <li>Return policy</li>
+                    <li>Product registration</li>
+
+                </ul>
+
+            </div>
+            <div class="blk3">
+                <ul>
+                    <li class="ft-heading">terms & condition</li>
+                    <li>terms & condition</li>
+                    <li>Privacy policy</li>
+                    <li>Cookie policy</li>
+                </ul>
+            </div>
+            <div class="blk4">
+                <ul>
+                    <li class="ft-heading">company information</li>
+                    <li>
+                        <div class="contact1">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <span>
+                                Call Us : +44(0)9998888888 <br>
+                                We're here from monday to friday
+                            </span>
+                        </div>
+
+                        <div class="contact1">
+                            <div class="icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <span>
+                                Email Us : support@icases.com <br>
+                                We aim to repond within 24hr , Mon-Fri
+                            </span>
+
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="socials">Follow us on</span>
+            <span class="logos">
+                <img src="images/ic_facebook.svg" alt="facebook">
+
+                <img src="images/ic_twitter.svg" alt="twitter">
+                <img src="images/ic_instagram.svg" alt="instagram">
+                <img src="images/ic_pintrest.svg" alt="pintrest">
+                <img src="images/ic_youtube.svg" alt="youtube">
+            </span>
+
+            <span class="payment">Payment Methods</span>
+            <span class="logos">
+                <img src="images/payment_logos.svg" alt="facebook">
+            </span>
+        </div>
+        <div class="footer-last">
+            <span class="copyright">&#169; 2021 iCases Limited.</span>
+        </div>
+    </div> -->
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-content">
+                <div class="block1">
+                    <span class="blk1-txt1">Subscribe for Newsletters</span>
+                    <span class="blk2-txt2">Subscribe for early access on offers and new arrivals</span>
+                </div>
+                <div class="feild">
+                    <input type="text" class="footer-feild" id="newsletter" placeholder="Enter email address">
+                    <button class="footerbtn" onclick="news_ltr_validate()">Subscribe</button>
+                    <!-- <p id="news_msg"></p> -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-mid">
+            <div class="logo">
+                <img src="images/logo_iCase_white.svg" alt="footer-img">
+            </div>
+            <div class="blk1">
+                <ul>
+                    <li class="ft-heading">info</li>
+                    <li>My account</li>
+                    <li>FAQ</li>
+                    <li>About us</li>
+                    <li>Delivery information</li>
+                </ul>
+            </div>
+            <div class="blk2">
+                <ul>
+                    <li class="ft-heading">customer services</li>
+                    <li><a href="contact-us.html" style="text-decoration: none;color: white;">Contact us</a></li>
+                    <li>Return policy</li>
+                    <li>Product registration</li>
+
+                </ul>
+
+            </div>
+            <div class="blk3">
+                <ul>
+                    <li class="ft-heading">terms & condition</li>
+                    <li>terms & condition</li>
+                    <li>Privacy policy</li>
+                    <li>Cookie policy</li>
+                </ul>
+            </div>
+            <div class="blk4">
+                <ul>
+                    <li class="ft-heading">company information</li>
+                    <li>
+                        <div class="contact1">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <span>
+                                Call Us : +44(0)9998888888 <br>
+                                We're here from monday to friday
+                            </span>
+                        </div>
+
+                        <div class="contact1">
+                            <div class="icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <span>
+                                Email Us : support@icases.com <br>
+                                We aim to repond within 24hr , Mon-Fri
+                            </span>
+
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="grp1">
+                <span class="socials">Follow us on</span>
+                <span class="logos">
+                    <img src="images/ic_facebook.svg" alt="facebook">
+
+                    <img src="images/ic_twitter.svg" alt="twitter">
+                    <img src="images/ic_instagram.svg" alt="instagram">
+                    <img src="images/ic_pintrest.svg" alt="pintrest">
+                    <img src="images/ic_youtube.svg" alt="youtube">
+                </span>
+            </div>
+            <div class="grp1">
+                <span class="payment">Payment Methods</span>
+                <span class="logos">
+                    <img src="images/payment_logos.svg" alt="facebook">
+                </span>
+            </div>
+        </div>
+        <div class="footer-last">
+            <span class="copyright">&#169; 2021 iCases Limited.</span>
+        </div>
+    </div>
+
+    
+    <script src="js/scroll.js"></script>
+    <script src="js/offcanvas.js"></script>
+    <script src="js/newsletter_validate.js"></script>
+    <script src="js/megamenu.js"></script>
+    <script src="js/onsearch.js"></script>
+    <script src="js/minicart.js"></script>
+    <script src="js/form-validate.js"></script>
+</body>
+
+</html>

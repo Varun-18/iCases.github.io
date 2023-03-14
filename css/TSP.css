@@ -1,0 +1,59 @@
+
+
+.TSP-scroll{
+    margin: 0 42px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 40px;
+    margin-bottom: 116px;
+    /* max-width: 1300px; */
+    width: 100vw;
+    /* position: relative; */
+}
+
+.TSP-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.prevbtn{
+    top: 100px;
+    left: 15px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color:black;
+}
+
+.nxtbtn{
+    top: 100px;
+    right: 10px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color:black;
+}
+
+.nxtbtn i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.prevbtn i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.btn{
+    position: relative;
+}

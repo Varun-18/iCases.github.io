@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../icons/icomoon.eot?m66xcy');
+    src:  url('../icons/icomoon.eot?m66xcy#iefix') format('embedded-opentype'),
+      url('../icons/icomoon.ttf?m66xcy') format('truetype'),
+      url('../icons/icomoon.woff?m66xcy') format('woff'),
+      url('../icons/icomoon.svg?m66xcy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-uni2192:before {
+    content: "\2192";
+  }
+  .icon-uni2190:before {
+    content: "\2190";
+  }
+  .icon-ic_user:before {
+    font-size: 20px;
+    content: "\e900";
+  }
+  .icon-ic_trolley:before {
+    font-size: 20px;
+    content: "\e901";
+  }
+  .icon-ic_search:before {
+    font-size: 20px;
+    content: "\e902";
+    color: #FFFFFF;
+  }
+  .icon-ic_quick_order-01:before {
+    font-size: 20px;
+    content: "\e903";
+  }
+  .icon-ic_cart-01:before {
+    font-size: 20px;
+    content: "\e904";
+  }
+  .icon-search:before {
+    font-size: 20px;
+    content: "\e986";
+  }
+
+
+
+  /* @font-face {
+    font-family: 'icomoon';
+    src:  url('../icons/ico.eot?dvlqz8');
+    src:  url('../icons/ico.eot?dvlqz8#iefix') format('embedded-opentype'),
+      url('../icons/ico.ttf?dvlqz8') format('truetype'),
+      url('../icons/ico.woff?dvlqz8') format('woff'),
+      url('../icons/ico.svg?dvlqz8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+     use !important to prevent issues with browser extensions that change fonts 
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+     Better Font Rendering =========== 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-ic_call:before {
+    content: "\e1000";
+    /* color: #000; 
+  }
+  .icon-ic_email:before {
+    content: "\e999";
+    color: #fff;
+  } */
